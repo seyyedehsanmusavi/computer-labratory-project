@@ -71,3 +71,43 @@ button {
 button:hover {
     background:#ffffff ;
 }
+
+.login {
+    height: 460px;
+    background: #ffffff;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+}
+.login label {
+    color: #4A55A2;
+    transform: scale(.6);
+}
+#chk:checked ~ .login {
+    transform: translateY(-490px);
+}
+#chk:checked ~ .login label {
+    transform: scale(1);
+}
+#chk:checked ~ .singup label {
+    transform: scale(.6);
+}
+.me {
+  margin:25px;
+  text-align: center;
+}
+.me a {
+  font-size:15px;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  background: #010101;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+.me a:hover {
+  color: #ffffff;
+  
+  transition: all easy 0.3s;
+}/*
